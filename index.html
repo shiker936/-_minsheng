@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>民生观察 - 关注民生，服务百姓</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&family=Noto+Serif+SC:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 头部导航 -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-section">
+                <div class="logo">民</div>
+                <h1 class="site-title">民生观察</h1>
+            </div>
+            
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item active"><a href="#" class="nav-link">首页</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">今日热点</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">政策解读</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">百姓故事</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">数据图解</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="search-btn" aria-label="搜索">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+                <button class="login-btn">登录</button>
+            </div>
+        </div>
+        <div class="nav-divider"></div>
+    </header>
+
+    <!-- 焦点图轮播 -->
+    <section class="hero-section">
+        <div class="hero-slider">
+            <a href="https://www.news.cn/20250620/1d4f0a846c0e415c8d1ddbe86e6d976c/c.html" target="_blank" class="hero-slide active" style="background-image: url('https://img1.cache.netease.com/2025/06/20/20250620101219.jpg')">
+                <div class="hero-overlay">
+                    <div class="hero-content">
+                        <span class="hero-tag">绿色革命</span>
+                        <h2 class="hero-title">从一纸"电力药方"看绍兴绿色革命</h2>
+                        <p class="hero-summary">绍兴通过"电力药方"助力企业节能降本，推动绿色低碳转型，累计为325万用户节省电费23.3亿元。</p>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="https://www.news.cn/20250620/a643a9b6c51f46219cdb3a6ed499ef49/c.html" target="_blank" class="hero-slide" style="background-image: url('https://img1.cache.netease.com/2025/06/20/20250620111754.jpg')">
+                <div class="hero-overlay">
+                    <div class="hero-content">
+                        <span class="hero-tag">道德模范</span>
+                        <h2 class="hero-title">文明的力量丨将门好女 薪火相传</h2>
+                        <p class="hero-summary">全国道德模范甘公荣坚守三句人生信条，带领志愿者服务社会，传承红色家风。</p>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="https://news.cctv.com/2025/06/21/ARTInNjFoCTRcXZ7Xawp3tu6250621.shtml" target="_blank" class="hero-slide" style="background-image: url('https://p1.img.cctvpic.com/photoworkspace/2025/06/21/20250621123456.jpg')">
+                <div class="hero-overlay">
+                    <div class="hero-content">
+                        <span class="hero-tag">民生关注</span>
+                        <h2 class="hero-title">多地推进民生实事，百姓获得感持续提升</h2>
+                        <p class="hero-summary">各地聚焦教育、医疗、住房等民生领域，持续推出惠民举措，提升群众幸福感。</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <div class="hero-controls">
+            <button class="hero-prev" aria-label="上一张">‹</button>
+            <div class="hero-dots">
+                <span class="hero-dot active" data-slide="0"></span>
+                <span class="hero-dot" data-slide="1"></span>
+                <span class="hero-dot" data-slide="2"></span>
+            </div>
+            <button class="hero-next" aria-label="下一张">›</button>
+        </div>
+    </section>
+
+    <!-- 核心内容区 -->
+    <main class="main-content">
+        <div class="content-container">
+            <!-- 左侧栏 - 最新新闻 -->
+            <section class="content-section news-section">
+                <h2 class="section-title">最新新闻</h2>
+                <div class="news-list">
+                    <a href="https://www.news.cn/20250620/1d4f0a846c0e415c8d1ddbe86e6d976c/c.html" target="_blank" class="card-link">
+                        <article class="news-item">
+                            <div class="news-image">
+                                <img src="https://img1.cache.netease.com/2025/06/20/20250620101219.jpg" alt="绿色革命">
+                            </div>
+                            <div class="news-content">
+                                <span class="news-tag">绿色革命</span>
+                                <h3 class="news-title">从一纸"电力药方"看绍兴绿色革命</h3>
+                                <p class="news-excerpt">绍兴通过"电力药方"助力企业节能降本，推动绿色低碳转型，累计为325万用户节省电费23.3亿元。</p>
+                                <div class="news-meta">
+                                    <span class="news-time">1小时前</span>
+                                    <span class="news-views">2.1万阅读</span>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://www.news.cn/20250620/a643a9b6c51f46219cdb3a6ed499ef49/c.html" target="_blank" class="card-link">
+                        <article class="news-item">
+                            <div class="news-image">
+                                <img src="https://img1.cache.netease.com/2025/06/20/20250620111754.jpg" alt="道德模范">
+                            </div>
+                            <div class="news-content">
+                                <span class="news-tag">道德模范</span>
+                                <h3 class="news-title">文明的力量丨将门好女 薪火相传</h3>
+                                <p class="news-excerpt">全国道德模范甘公荣坚守三句人生信条，带领志愿者服务社会，传承红色家风。</p>
+                                <div class="news-meta">
+                                    <span class="news-time">2小时前</span>
+                                    <span class="news-views">1.8万阅读</span>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="https://news.cctv.com/2025/06/21/ARTInNjFoCTRcXZ7Xawp3tu6250621.shtml" target="_blank" class="card-link">
+                        <article class="news-item">
+                            <div class="news-image">
+                                <img src="https://p1.img.cctvpic.com/photoworkspace/2025/06/21/20250621123456.jpg" alt="民生关注">
+                            </div>
+                            <div class="news-content">
+                                <span class="news-tag">民生关注</span>
+                                <h3 class="news-title">多地推进民生实事，百姓获得感持续提升</h3>
+                                <p class="news-excerpt">各地聚焦教育、医疗、住房等民生领域，持续推出惠民举措，提升群众幸福感。</p>
+                                <div class="news-meta">
+                                    <span class="news-time">3小时前</span>
+                                    <span class="news-views">1.5万阅读</span>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </section>
+
+            <!-- 中间栏 - 政策解读 -->
+            <section class="content-section policy-section">
+                <h2 class="section-title">政策解读</h2>
+                <div class="policy-list">
+                    <a href="https://news.cctv.com/2025/06/22/ARTIdhUSxWtnEquGmKPvraph250622.shtml" target="_blank" class="card-link">
+                        <article class="policy-item">
+                            <div class="policy-header">
+                                <span class="policy-tag">深度解读</span>
+                                <h3 class="policy-title">着力解决人民急难愁盼问题——保障和改善民生工作观察</h3>
+                            </div>
+                            <p class="policy-summary">这篇文章主要介绍了中国在保障和改善民生方面的工作进展，特别是如何解决人民的急难愁盼问题，让中国式现代化建设成果更多更公平地惠及全体人民。</p>
+                            <div class="policy-meta">
+                                <span class="policy-author">政策研究中心</span>
+                                <span class="policy-date">2025-06-22</span>
+                            </div>
+                        </article>
+                    </a>
+                    
+                    <a href="https://www.chinanews.com.cn/sh/2024/09-26/10292893.shtml" target="_blank" class="card-link">
+                        <article class="policy-item">
+                            <div class="policy-header">
+                                <span class="policy-tag">专家观点</span>
+                                <h3 class="policy-title">教育"双减"政策实施一年来的成效与挑战</h3>
+                            </div>
+                            <p class="policy-summary">本篇聚焦"双减"政策实施一周年，专家分析政策成效，探讨优化教育生态、促进学生全面发展的新路径，并提出未来改进建议。</p>
+                            <div class="policy-meta">
+                                <span class="policy-author">教育专家</span>
+                                <span class="policy-date">2024-09-26</span>
+                            </div>
+                        </article>
+                    </a>
+                    
+                    <a href="https://www.gov.cn/zhengce/zhengceku/202406/content_6957845.htm" target="_blank" class="card-link">
+                        <article class="policy-item">
+                            <div class="policy-header">
+                                <span class="policy-tag">政策速递</span>
+                                <h3 class="policy-title">2024年退休人员基本养老金上调3%</h3>
+                            </div>
+                            <p class="policy-summary">人力资源社会保障部、财政部联合发文，明确从2024年1月1日起，为2023年底前已退休的人员上调基本养老金3%。</p>
+                            <div class="policy-meta">
+                                <span class="policy-author">人社部</span>
+                                <span class="policy-date">2024-06-13</span>
+                            </div>
+                        </article>
+                    </a>
+                    
+                    <a href="https://www.gov.cn/zhengce/202501/content_6997647.htm" target="_blank" class="card-link">
+                    <article class="policy-item">
+                        <div class="policy-header">
+                            <span class="policy-tag">民生政策</span>
+                            <h3 class="policy-title">养老服务体系建设政策解读</h3>
+                        </div>
+                        <p class="policy-summary">国家发改委发布养老服务体系建设指导意见，明确"十四五"期间养老服务发展目标和重点任务。</p>
+                        <div class="policy-meta">
+                            <span class="policy-author">民生政策研究院</span>
+                            <span class="policy-date">2025-06-19</span>
+                        </div>
+                    </article>
+                    </a>
+                </div>
+            </section>
+
+            <!-- 右侧栏 - 百姓故事 -->
+            <section class="content-section story-section">
+                <h2 class="section-title">百姓故事</h2>
+                <div class="story-list">
+                    <a href="https://people.cctv.com/2025/06/23/ARTIhVMjsWjgLaWUFuzyb2mF250623.shtml" target="_blank" class="card-link">
+                        <article class="story-item">
+                            <div class="story-image">
+                                <img src="https://p2.img.cctvpic.com/photoworkspace/contentimg/2025/06/23/2025062313502841779.jpg" alt="赵云鹏">
+                            </div>
+                            <div class="story-content">
+                                <h3 class="story-title">赵云鹏：为“蓝色粮仓”编织安全网</h3>
+                                <p class="story-text">最近，大连理工大学海岸和近海工程国家重点实验室教授赵云鹏正带领团队开展“黄渤海离岸工程化大型设施智能养殖模式与装备”项目。这项研究聚焦黄渤海高经济鱼种养殖，致力于构建低成本、智能化的养殖设施装备体系。</p>
+                                <span class="story-author">央视网</span>
+                            </div>
+                        </article>
+                    </a>
+                    
+                    <a href="https://news.cctv.com/2013/02/20/VIDE1361314924190240.shtml" target="_blank" class="card-link">
+                        <article class="story-item">
+                            <div class="story-image">
+                                <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="乡村医生夫妇">
+                            </div>
+                            <div class="story-content">
+                                <h3 class="story-title">丈夫背上的"行脚医生"：周月华与艾起</h3>
+                                <p class="story-text">周月华因小儿麻痹左腿残疾，她的丈夫艾起便成了她的"脚"。20多年来，丈夫背着她翻山越岭，为近5000村民送去医疗服务，他们的身影成为大山中最动人的风景线。</p>
+                                <span class="story-author">感动中国人物</span>
+                            </div>
+                        </article>
+                    </a>
+                    
+                    <a href="http://report.qianlong.com/2022/0819/7547284.shtml" target="_blank" class="card-link">
+                        <article class="story-item">
+                            <div class="story-image">
+                                <img src="https://p3.img.cctvpic.com/photoworkspace/2022/08/18/2022081816223521504.jpg" alt="姚凯元">
+                            </div>
+                            <div class="story-content">
+                                <h3 class="story-title">姚凯元：95后小伙造血干细胞"生命速递"</h3>
+                                <p class="story-text">一封感谢信揭开了一位"95后"小伙姚凯元捐献造血干细胞的感人故事。为了这场"生命速递"，他时刻准备着，用热血为生命续航。</p>
+                                <span class="story-author">人民网</span>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <p>&copy; 2025 民生观察. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
